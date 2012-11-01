@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Package xmlns="http://schemas.microsoft.com/appx/2010/manifest">
+  <Identity Name="8106c69c-b584-48b3-886c-4d2045d852d0" Publisher="CN=Jason" Version="1.0.0.0" />
+  <Properties>
+    <DisplayName>slxWindows8App</DisplayName>
+    <PublisherDisplayName>Jason</PublisherDisplayName>
+    <Logo>Assets\groovy_50x50.png</Logo>
+  </Properties>
+  <Prerequisites>
+    <OSMinVersion>6.2.1</OSMinVersion>
+    <OSMaxVersionTested>6.2.1</OSMaxVersionTested>
+  </Prerequisites>
+  <Resources>
+    <Resource Language="x-generate" />
+  </Resources>
+  <Applications>
+    <Application Id="App" Executable="$targetnametoken$.exe" EntryPoint="slxWindows8App.App">
+      <VisualElements DisplayName="SalesLogix Windows 8 Notifications" Logo="Assets\groovy_150x150.png" SmallLogo="Assets\groovy_30x30.png" Description="slxWindows8App" ForegroundText="light" BackgroundColor="#C1D59F" ToastCapable="false">
+        <DefaultTile ShowName="allLogos" WideLogo="Assets\groovy_310x150.png" ShortName="slxNotifications" />
+        <SplashScreen Image="Assets\Icon_620x300.png" />
+      </VisualElements>
+    </Application>
+  </Applications>
+  <Capabilities>
+    <Capability Name="internetClient" />
+  </Capabilities>
+</Package>
